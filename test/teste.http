@@ -1,0 +1,16 @@
+GET http://localhost:3190/post/1
+###
+
+GET http://localhost:3190/autor
+###
+
+POST http://localhost:3190/post
+Content-Type: application/json
+
+{
+    "title": "teste",
+    "content": "Esse é um teste texte para o primeiro post",
+    "imag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyYoR0IS89ubVsKau-ymNB3bQrskLLex98HQ&s",
+    "autorId": 1,
+    "categoriaId": 1
+}
